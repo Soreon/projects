@@ -1,0 +1,23 @@
+body {
+    background-color: #1E1E1E;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li::before {
+    content: ">";
+    color: #44CF2B;
+    margin-right: 10px;
+}
+
+a {
+    color: #44CF2B;
+}
+
+a:link {
+    text-decoration: none;
+}
