@@ -4,7 +4,7 @@ xhr.onload = function () {
     'use script';
     if (xhr.status === 200) {
         const exceptions = [
-            'project',
+            'projects',
             'lignum'
         ];
         var repos = JSON.parse(xhr.responseText);
