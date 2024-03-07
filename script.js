@@ -1,6 +1,6 @@
 const exceptions = ['projects', 'lignum'];
 
-fetch('https://api.github.com/users/Soreon/repos')
+fetch('https://api.github.com/users/Soreon/repos?page=1&per_page=100')
   .then((r) => r.json())
   .then((repos) => {
     const ul = crel('ul');
